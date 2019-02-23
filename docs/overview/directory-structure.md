@@ -1,5 +1,11 @@
 # Directory structure
 
+```eval_rst
+    only:: false
+    This documentation is meant to be read on ReadTheDocs, go there:
+    https://zulip.readthedocs.io/en/latest/
+```
+
 This page documents the Zulip directory structure, where to find
 things, and how to decide where to put a file.
 
