@@ -9,7 +9,7 @@ The core Zulip application is at
 is a web application written in Python 3.x and using the Django framework. That
 codebase includes server-side code and the web client, as well as Python API
 bindings and most of our integrations with other services and applications (see
-[the directory structure guide](../overview/directory-structure.html)).
+[the directory structure guide]('../overview/directory-structure.html')).
 
 [Zulip Mobile](https://github.com/zulip/zulip-mobile) is the official
 mobile Zulip client supporting both iOS and Android, written in
