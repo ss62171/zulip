@@ -1,7 +1,7 @@
 # Directory structure
 
 ```eval_rst
-    only:: false
+.. only:: false
     This documentation is meant to be read on ReadTheDocs, go there:
     https://zulip.readthedocs.io/en/latest/
 ```
