@@ -3,7 +3,7 @@
 ```eval_rst
 .. only:: false
     This documentation is meant to be read on ReadTheDocs, go there:
-    https://zulip.readthedocs.io/en/latest/subsystems/two-factor-auth.html
+    https://zulip.readthedocs.io/en/latest/
 ```
 
 Zulip uses [django-two-factor-auth][0] to integrate 2FA.
