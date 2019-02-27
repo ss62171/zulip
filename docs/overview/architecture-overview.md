@@ -1,4 +1,4 @@
-++Zulip architectural overview
+Zulip architectural overview
 ============================
 
 Key Codebases
@@ -9,7 +9,7 @@ The core Zulip application is at
 is a web application written in Python 3.x and using the Django framework. That
 codebase includes server-side code and the web client, as well as Python API
 bindings and most of our integrations with other services and applications (see
-<!-- [the directory structure guide](../overview/directory-structure.md)).-->
+[the directory structure guide](../overview/directory-structure.html)).
 
 [Zulip Mobile](https://github.com/zulip/zulip-mobile) is the official
 mobile Zulip client supporting both iOS and Android, written in
@@ -321,3 +321,12 @@ are welcome!
     they want to mark all their unread messages as read.  This is
     called "declaring bankruptcy" (in reference to the concept in
     finance).
+
+<script language="javascript">
+var x = document.links.length;
+for (i = 0; i < x; i++) {
+  var thisHREF = document.links[i].href;
+  if (thisHREF.indexOf(window.location.hostname) > -1) thisHREF = thisHREF.replace(".html",".md").replace("/index/","/");
+  document.links[i].setAttribute('href', thisHREF);
+}
+</script>
