@@ -323,10 +323,12 @@ are welcome!
     finance).
 
 <script language="javascript">
+
+console.log("akshay");
 var x = document.links.length;
 for (i = 0; i < x; i++) {
   var thisHREF = document.links[i].href;
-  if (thisHREF.indexOf(window.location.hostname) > -1) thisHREF = thisHREF.replace(".html",".md").replace("/index/","/");
+  if (thisHREF.indexOf(window.location.hostname) > -1) thisHREF = thisHREF.replace(".md","/").replace("/index/","/");
   document.links[i].setAttribute('href', thisHREF);
 }
 </script>
